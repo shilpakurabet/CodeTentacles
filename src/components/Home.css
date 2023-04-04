@@ -1,0 +1,57 @@
+/** @format */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 35px;
+  background-color: white;
+}
+.logout {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 18px;
+}
+.logout button {
+  background-color: #3761ee;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 3px;
+  letter-spacing: 1px;
+  margin-left: 30px;
+}
+.homeWrapper {
+  height: 100vh;
+  width: 100%;
+}
+.timer {
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+/* CSS for mobile */
+@media screen and (max-width: 480px) {
+  .navbar {
+    padding: 5px 20px;
+  }
+
+  .logout {
+    font-size: 16px;
+    margin-left: 10px;
+  }
+
+  .logout button {
+    padding: 8px 15px;
+    font-size: 14px;
+    margin-left: 10px;
+  }
+
+  .homeWrapper {
+    height: 100vh;
+  }
+}
